@@ -1,0 +1,41 @@
+.test-case {
+	margin: 1rem;
+}
+
+.test-button {
+	padding: 0 1rem 0 1rem;
+	border-radius: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1.875rem;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #0070d2;
+    border: 1px solid #0070d2;
+    color: white;
+}
+
+.status {
+	font-size: 1rem;
+	font-weight: 100;
+	padding:  0 0.5rem 0 0.5rem;
+}
+
+.status.running:before {
+	content: "…";
+	color: black;
+}
+
+.status.pass:before {
+	content: "✓";
+	color: green;
+}
+
+.status.fail:before {
+	content: "✗";
+	color: red;
+}
+
+.error {
+	padding:  0 0.5rem 0 0.5rem;
+	color: red;
+}
