@@ -89,7 +89,7 @@ var TestSuite = function() {
 		var test = "a";
 		var expected = "a";
 		assertEquals(expected, homework(test));
-	}
+	};
 
 	return suite;
 }();

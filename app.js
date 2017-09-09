@@ -1,4 +1,3 @@
 function homework(str) {
-	// TODO write implementation
-	return "Not Implemented!";
+	throw new Error("Not Implemented!");
 }
